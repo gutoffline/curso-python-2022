@@ -1,5 +1,5 @@
 # salvar como operacoes.py
-def soma(n1,n2):
+def soma(n1=0,n2=0):
     resultado = n1 + n2
     print(resultado)
     
@@ -14,8 +14,4 @@ def dividir(n1,n2):
 def multiplicar(n1,n2):
     resultado = n1*n2
     print(resultado)
-    
-soma(10,5)
-subtrair(10,5)
-dividir(10,5)
-multiplicar(10,5)
+
