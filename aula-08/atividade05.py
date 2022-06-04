@@ -1,7 +1,7 @@
 from bs4 import BeautifulSoup
 from urllib.request import urlopen
 
-url = "https://supermercadospaguemenos.com.br"
+url = "https://www.superpaguemenos.com.br/"
 resposta = urlopen(url)
 html_site = resposta.read()
 soup_site = BeautifulSoup(html_site,"html.parser")
